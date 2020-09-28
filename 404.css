@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+}
+header
+{
+   
+   
+   
+}
+nav
+{
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    color: white;
+    background-color: black;
+    
+   
+    
+}
+.logo{
+    justify-content: flex-start;
+    margin-left: 20px; 
+    align-items: center;
+    justify-content: center;
+       
+}
+.logo a{
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 2em;
+    padding: 2px;
+    vertical-align: center; 
+    display: flex;   
+}
+
+.logo :hover{
+    transform: scale(1.05);
+    color: red;
+    transition-duration: 1s;
+}
+.navigation a{
+    justify-content: flex-end;
+    padding: 7px;
+    margin: 12px;
+    font-size: 1.1em;
+    align-self: center;
+    border:2px solid red;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+   
+}
+
+.navigation a:hover{
+    color: red;
+    transition-duration: 1s;
+}
+
+main{
+    background-image: url("img/background.jpg");
+    width: 100%;
+    height: 650px;
+    background-size: contain;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: flex;
+}
+.vide{
+    width: 55%;
+}
+.text{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+   
+
+}
+.l404{
+    justify-content: center;
+    font-size: 8em;
+   
+
+}
+.red{
+    color: red;
+}
+
+.message{
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+
+.black{
+    color: black;
+}
+.message a{
+    color: black;
+   text-decoration: none;
+}
+
+.message a:hover{
+    color: red;
+   
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+  
+    
+}
+address{
+    height: 100%;
+   margin-top: 15px;
+    display: inline-block;
+    
+}
